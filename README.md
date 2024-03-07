@@ -18,6 +18,24 @@ npm i react-router-dom @types/react-router-dom
 
 - src
   - assets
+    - hooks
   - components
+    - navigation
+      - desktop
+        - Desktop.tsx
+      - mobile
+        - Mobile.tsx
   - shared
+    - data
+    - images
+    - hooks
   - routes
+    - RoutingPaths.ts
+    - Routes.tsx
+
+### Initialize Tailwind
+
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
