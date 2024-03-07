@@ -39,3 +39,7 @@ npm i react-router-dom @types/react-router-dom
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+
+Create script for running tailwind
+
+`"start:tailwind": "tailwindcss -i ./src/index.css -o ./src/output.css --watch"`
