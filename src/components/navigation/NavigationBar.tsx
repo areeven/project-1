@@ -1,7 +1,19 @@
+import { NavLink } from "react-router-dom";
+
 function NavigationBar() {
   return (
-    <div className="bg-blue-500 p-4">
-      <h1 className="text-3xl font-bold underline">Hem</h1>
+    <div className="p-4">
+      <nav>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
+      </nav>
     </div>
   );
 }
